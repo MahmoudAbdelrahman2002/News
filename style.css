@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    width: 1fr;
+}
+
+.container{
+    padding: 0px 15px;
+    margin: 0 auto;
+    
+}
+
+#nav-bar{
+     
+    background-color: #333335;
+}
+#nav-bar .container{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 1fr;
+    align-items: center;
+}
+
+    
+
+#nav-bar img{
+    width: 60px;
+    height: inherit;
+    background-color:inherit ;
+}
+#nav-bar ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    width: inherit;
+}
+#nav-bar li{
+    display: flex;
+    margin-left: 15px;
+   color: white;
+    width: 20%px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#news .container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    
+}
+
+#news .container div img{
+    width: inherit;
+    height: 220px;
+}
+#news .container .element{
+    
+   text-align: center;
+    background-color: #EEE;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 6px;
+}
+@media (min-width:360px) {
+    .element{
+        width: 300px;
+     
+    }
+    
+}
+@media (min-width:768px) {
+    .element{
+        width: 280px;
+     
+    }
+    
+}
+@media (min-width:992px) {
+    .element{
+        width: 260px;
+     
+    }
+}
+@media (min-width:1300px) {
+    .element{
+        width: 250px;
+        
+    }
+}
+ #nav-bar a{
+    text-decoration: none;
+    color: white;
+
+ }
+.element a{
+    
+    
+    display: block;
+    overflow: hidden;
+    color: black;
+   margin-top: 8px;
+}
+#news p{
+    overflow: hidden;
+    margin-top: 30px;
+    color: #BBB;
+}
